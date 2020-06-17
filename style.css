@@ -1,0 +1,113 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  margin:0px;
+  padding:0px;
+}
+
+nav {
+  background-color: black ;
+  color: white;
+  overflow: hidden;
+  padding: 5px;
+  margin: 0%;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 100px;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 200px;
+}
+
+.lnr-camera {
+  font-size: 60px;
+  margin: 8px;
+  /* To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}
+
+h1 {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+footer {
+  background-color: black ;
+  color: white;
+  overflow: hidden;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 40px;
+  border-radius: 4%;
+  border: 2px solid white;
+  background-color: black;
+  margin: 20px;
+}
+
+img {
+  display: inline;
+  padding: 5px;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.flowers {
+  border: 5px solid #F7C0AA;
+}
+
+.cacti-succulents {
+  border: 5px solid #64A587;
+}
+
+.forests {
+  border: 5px solid #446B50;
+}
+
+.ocean {
+  border: 5px solid #0C8C95;
+}
+
+.mountains {
+  border: 5px solid #6D9BC3;
+}
+
+.night {
+  border: 5px solid #0C5D7B;
+}
