@@ -1,5 +1,5 @@
 // When the user scrolls the page, execute myFunction
-//Script from 3schools
+//Script from w3schools
 window.onscroll = function() {myFunction()};
 
 // Get the navbar
